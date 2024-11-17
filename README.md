@@ -1,0 +1,1 @@
+Este es un curso de una preparcion de una app de horoscopo.
