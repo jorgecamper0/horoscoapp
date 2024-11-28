@@ -8,8 +8,11 @@ import android.view.ViewGroup
 import com.jorgecamper0.horoscoapp.R
 import com.jorgecamper0.horoscoapp.databinding.FragmentHoroscopeBinding
 import com.jorgecamper0.horoscoapp.databinding.FragmentLuckBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class LuckFragment : Fragment() {
+
 
     private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!
